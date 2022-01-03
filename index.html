@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JavaScript</title>
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+	</head>
+	<body>
+		<header class="header">
+			<h1>TODO LIST</h1>
+		</header>
+
+        <!-- ToDo список задач -->
+		<div class="simple-todo">
+			<form id="todo-form">
+				<input id="todo-input" type="text" placeholder="Введите название задачи" />
+				<button class='addBtn' title="Добавить" type="submit"><i class='bx bx-plus-medical add'></i></button>
+			</form>
+			<div class="tasks-wrapper">
+				<h2>Задачи на день:</h2>
+				<div id="todo-list">
+				</div>
+			</div>
+		</div>
+
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
