@@ -25,10 +25,10 @@ function Task(desc) {
 const createTemplate = (task, index) => {
     return `
         <div class='item ${task.completed ? 'checked' : ''} ${task.priority ? 'priority' : ''}'>
+            <input class="check" onclick="completeTask(${index})" type="radio" ${task.completed ? 'checked' : ''}>
             <p>${task.desc}</p>
-            <input class="check" onclick="completeTask(${index})" type="checkbox" ${task.completed ? 'checked' : ''}>
-            <button onclick="alertTask(${index})" title="Пометить как важное"><i class='bx bxs-bell alert' ></i></button>
-            <button class="btn-delete" onclick="deleteTask(${index})" title="Удалить"><i class='bx bxs-trash trash'></i></button>
+            <button onclick="alertTask(${index})" title="Alert"><i class='bx bxs-bell alert' ></i></button>
+            <button class="btn-delete" onclick="deleteTask(${index})" title="Remove"><i class='bx bxs-trash trash'></i></button>
         </div> `;
 }
 
