@@ -1,10 +1,10 @@
 <a id="anchor"></a>
-#To Do List
+# To Do List
 ![ToDoList screen](assets/img/todolist.png)
 ![Add gif](assets/img/action_add.gif)
 ![All gif](assets/img/action_other.gif)
 
-###About Project
+### About Project
 ***
 Training project. Built to practice __**JavaScript**__. List of technologies used:
 
