@@ -1,8 +1,8 @@
 <a id="anchor"></a>
 #To Do List
 ![ToDoList screen](assets/img/todolist.png)
-![Alert screen](assets/img/alert.png)
-![Done screen](assets/img/done.png)
+![Add gif](assets/img/action_add.gif)
+![All gif](assets/img/action_other.gif)
 
 ###About Project
 ***
